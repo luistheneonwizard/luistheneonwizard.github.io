@@ -1,0 +1,15 @@
+.contenedor{
+display: flex;
+
+}
+
+.item{
+margin-left: 10px;
+background-color: rgb(168, 124, 238);
+}
+
+@media(max-width:600px){
+    .contenedor{
+        flex-direction: column;
+    }
+}
