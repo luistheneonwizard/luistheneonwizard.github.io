@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilosportafolio.css">
+</head>
+<body>
+
+    <header>
+        <h1>MI PORTAFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Luis Fandiño, un desarrollador web apasionado por crrar soluciones innovadores.</p>
+        <img id="yo" src="yo.png" alt="yo" height="410px">
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="cat-ofice.jpg" alt="Proyecto 1">
+                <p>Desarrollo de páginas web front-end</p>
+
+            </div>
+            <div class="project">
+                <img src="catnojao.jpg" alt="Proyecto 2">
+                <p>Atención al cliente</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required style="background-color:rgb(248, 210, 167);"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required style="background-color: rgb(248, 210, 167);"><br>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" required style="background-color: rgb(248, 210, 167);"></textarea><br>
+            <input type="submit" value="Enviar" style="background-color: rgb(248, 210, 167);">
+        </form>
+
+    </section>
+    
+</body>
+</html>

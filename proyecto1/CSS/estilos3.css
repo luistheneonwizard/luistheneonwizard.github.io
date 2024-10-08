@@ -6,7 +6,7 @@ header{
     background-image: url(https://blog.empleate.com/wp-content/uploads/2020/07/mejores-programas-de-diseno-grafico.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: saturation;
+    background-blend-mode: saturation(40%);
 }
 
 .titulo{
